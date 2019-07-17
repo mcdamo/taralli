@@ -10,6 +10,14 @@ topology of the desktop to be that of a torus.
 platforms.  I would appreciate any bug reports and patches, which you can
 submit through GitHub.
 
+## Prerequisites
+
+~~~
+$ sudo apt install libx11-dev libxi-dev
+~~~
+
+## Build
+
 For the common case of a rectangular desktop, you can build and run `taralli`
 like so:
 
